@@ -2,6 +2,8 @@
 
 The code processes individual timepoint barcode sequencing data from fastq files and assembles them into timecourse trajectories. Data in this form can be used to estimate barcode fitness.
 
+Dependencies: pear, bowtie2, bartender
+
 The python code has been broken down in functions that are called at the end.
 
 The functions process the data as follows:
